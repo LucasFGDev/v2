@@ -12,10 +12,10 @@ O ChatGPT é um chatbot altamente conversacional e inteligente que utiliza a tec
 - **Inteligência Artificial Avançada:** Graças à GPT-3.5, o chatbot é capaz de compreender e gerar texto com grande precisão e relevância.
 - **Personalização:** É possível personalizar o chatbot para atender às necessidades específicas do seu projeto, adicionando comandos e respostas personalizadas.
 
-#Tela inicial
+### Tela inicial
 ![Captura de Tela (1)](https://github.com/LucasFGDev/v2/assets/144754293/b0891f6f-b86a-4dfb-8c0c-a974d8083c57)
 
 
-##Licença
+## Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
