@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;  
+  min-height: 100vh;
+  background-image: url(./public/4394229_91627_edited.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #031633; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #646cff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #535bf2; 
+}
+
+#app {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.content-msg-gpt{
+  position: relative;
+  display: flex;
+  width: 666px;  
+  height: 550px;
+  overflow-y: auto;
+  background-color: #031633;
+  border: 2px solid #084298;
+  z-index: 3;
+  flex-direction: column;
+  box-shadow: 0px 0px 7px #535bf2;
+}
+
+.content-msg-gpt .content-text-gpt{
+  width: auto;
+  padding: 0.4rem 0.7rem;
+  font-size: 13px;
+  color: #ffda6a;
+  background-color: #332701;
+  border: 1px solid #ffc107;
+  margin: 27px 27px 12px;
+  text-align: left;
+}
+
+.content-msg-gpt .content-text-gpt-loader{
+  width: fit-content;
+  padding: 0.9rem 0.7rem;
+  font-size: 13px;
+  color: #ffda6a;
+  background-color: #332701;
+  border: 1px solid #ffc107;
+  margin: 27px 27px 12px;
+  text-align: left;
+  display: flex;
+}
+
+.content-msg-gpt .content-user{
+  float: right;
+  width: auto;
+  padding: 0.4rem 0.7rem;
+  font-size: 13px;
+  color: #6edff6;
+  background-color: #032830;
+  border: 1px solid #087990;
+  margin: 27px 27px 12px;
+  text-align: left;
+}
+
+.comand_chat{
+  background: url(./artificial-intelligence.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  margin: 1rem auto 0rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+form{
+  border-top: 2px solid green;
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+form .form-chat_comand {
+  border: none;
+  width: 83%;
+  height: 36px;
+  background-color: black;
+  padding: 0rem 1rem;
+  outline: 0;
+  color: #ffffff;
+}
+
+form button {
+  padding: 10px;
+  height: 36px;
+  width: 84px;
+  background: green;
+  border: none;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  font-size: 17px;
+}
+
+form button:hover{
+  padding: 10px;
+  height: 36px;
+  width: 84px;
+  background: rgb(2, 105, 2);
+  border: none;
+  cursor: pointer;
+}
+
+.title{
+  font-family: 'Audiowide', cursive;
+}
+
+footer p{
+  font-family: 'Space Mono', monospace;
+  font-size: 10px; 
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 764px) {
+  .content-msg-gpt {
+    position: relative;
+    display: flex;
+    width: 500px;
+    height: 550px;
+    overflow-y: auto;
+    background-color: #031633;
+    border: 2px solid #084298;
+    z-index: 3;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px #535bf2;
+}
+}
+
+@media screen and (max-width: 571px) {
+  .content-msg-gpt {
+    position: relative;
+    display: flex;
+    width: 370px;
+    height: 550px;
+    overflow-y: auto;
+    background-color: #031633;
+    border: 2px solid #084298;
+    z-index: 3;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px #535bf2;
+}
+}
+
+@media screen and (max-width: 571px) {
+  .content-msg-gpt {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 550px;
+    overflow-y: auto;
+    background-color: #031633;
+    border: 2px solid #084298;
+    z-index: 3;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px #535bf2;
+}
+}
+
+@media screen and (max-width: 371px) {
+  #app {
+    max-width: 1280px;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1;
+  }
+  .comand_chat{
+    background: url(./artificial-intelligence.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin: 1rem auto 0rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .content-msg-gpt {
+    position: relative;
+    display: flex;
+    width: 270px;
+    height: 550px;
+    overflow-y: auto;
+    background-color: #031633;
+    border: 2px solid #084298;
+    z-index: 3;
+    flex-direction: column;
+    box-shadow: 0px 0px 7px #535bf2;
+    margin: auto;
+}
+}
