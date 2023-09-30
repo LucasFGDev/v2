@@ -1,2 +1,2 @@
-import './style.css'
-import 'v2/js/gpt.js'
+import "./style.css"
+import "js/gpt.js"
