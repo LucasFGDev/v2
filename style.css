@@ -115,7 +115,7 @@ body {
 }
 
 .comand_chat{
-  background: url(./public/artificial-intelligence_128.png);
+  background: url(https://lucasfgdev.github.io/v2/public/artificial-intelligence.png);
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -228,7 +228,7 @@ footer p{
     z-index: 1;
   }
   .comand_chat{
-    background: url(./artificial-intelligence.png);
+    background: url(https://lucasfgdev.github.io/v2/public/artificial-intelligence.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
